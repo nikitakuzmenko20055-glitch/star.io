@@ -1,0 +1,74 @@
+/* Сброс базовых отступов */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Общий стиль */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Шапка */
+header {
+  background: #2b3a67;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Основной контент */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #2b3a67;
+  margin-bottom: 10px;
+}
+
+article {
+  margin-top: 10px;
+  padding: 10px;
+  border-left: 4px solid #2b3a67;
+  background: #f9f9ff;
+}
+
+/* Подвал */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #2b3a67;
+  color: white;
+  margin-top: 20px;
+}
